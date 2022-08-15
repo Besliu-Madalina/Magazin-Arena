@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Avecom-Net S.R.L. este o societate comercială, fondată în anul 2005, cu o echipă experimentată, plină de idei și entuziasm.">
+    <meta name="keywords" content="Arena, magazin, tehnică de calcul, electrocasnice, îmbrăcăminte, AVECOM-NET, societate comercială, S.C. AVECOM-NET S.R.L., parteneri, producători, servicii">
+    <meta name="author" content="Beșliu Mădălina, Savciuc Lucian">
+
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script src="../js/main.js" defer></script>
+    <script src="../js/email.js" defer></script>
+
+    <title>S.C. AVECOM-NET S.R.L.</title>
+</head>
+
+<body>
+
+    <header>
+        <a class="logo" href="despre.html">
+            <img src="../images/logo.png">
+        </a>
+        <div id="navbar" class="nav">
+            <a href="../index.html">
+                Home
+                <i class="fas fa-home"></i>
+            </a>
+
+            <a href="despre.html">
+                About Us
+                <i class="fas fa-info-circle"></i>
+            </a>
+            <a href="servicii.html">
+                Services
+                <i class="fab fa-usps"></i>
+            </a>
+            <a href="galerie.html">
+                Gallery
+                <i class="fas fa-images"></i>
+            </a>
+            <a class="active" href="contacte.html">
+                Contact Us
+                <i class="fas fa-phone-alt"></i>
+            </a>
+            <a id="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+
+    <section class="top-section" id="contacte">
+        <h1 class="top-title">Contact Us</h1>
+    </section>
+
+    <main>
+        <div class="row lista">
+            <div class="col-50">
+                <h3 class="centered">Programul de lucru:</h3>
+                <ul class="contact-list">
+                    <li><b>Luni:</b> 8:00-18:00</li>
+                    <li><b>Marți:</b> 8:00-18:00</li>
+                    <li><b>Miercuri:</b> 8:00-18:00</li>
+                    <li><b>Joi:</b> 8:00-18:00</li>
+                    <li><b>Vineri:</b> 8:00-18:00</li>
+                    <li><b>Sâmbătă:</b> 8:00-16:00</li>
+                    <li><b>Duminică:</b> 8:00-15:00</li>
+                </ul>
+            </div>
+
+            <div class="col-50">
+                <h3 class="centered">Date de contact:</h3>
+                <ul class="contact-list">
+                    <li><b>Adresa:</b> Strada Decebal 16, Ungheni</li>
+                    <li><b>Telefon:</b> /0236/ 2 88 99</li>
+                    <li><b>Fax:</b> /0236/ 2 23 388</li>
+                    <li><b>E-mail:</b> avecom-net@mail.ru</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row lista">
+            <div class="col-50">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10841.156894269547!2d27.7995591!3d47.2109229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8639d4946290681e!2sArena!5e0!3m2!1sro!2s!4v1647360874010!5m2!1sro!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="col-50">
+                <div class="contact-form">
+                        <form id="formular">
+                        <h3 class="centered">Lasă un mesaj</h3>
+                        <input type="text" id="nume" placeholder="Nume" required>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <textarea id="mesaj" rows="3" placeholder="Mesaj" required></textarea>
+                        <input type="button" value="Transmite" onclick="send()" >
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="first-container">
+            <b class="footer-phone">Telefon: /0236/ 2 88 99 <br>Fax: /0236/ 2 33 88</b>
+            <div class="footer-social">
+                <img class="logo-footer" src="../images/logo3.png">
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100077343601819">
+                        <img class="facebook" src="../images/facebook_icon.png">
+                    </a>
+                </div>
+            </div>
+            <b class="email-footer">avecom-net@mail.ru</b>
+        </div>
+    </footer>
+
+</body>
+
+</html>
